@@ -1,0 +1,6 @@
+{
+    // Trailing whitespace
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+}
