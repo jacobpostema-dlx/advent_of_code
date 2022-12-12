@@ -1,4 +1,4 @@
-﻿var lines = System.IO.File.ReadAllLines(@"/Users/t463971/code/advent_of_code/AdventOfCode2022/Day1/input.txt");
+﻿var lines = System.IO.File.ReadAllLines(@"/Users/t463971/code/advent_of_code/AdventOfCode2022/Day01/input.txt");
 
 
 Console.WriteLine("########## Day 1 2022 ##########");
