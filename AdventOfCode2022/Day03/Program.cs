@@ -29,8 +29,6 @@ static int SolvePartTwo(string[] rucksackContents)
         string[] group = new string[] {rucksackContents[i], rucksackContents[i+1], rucksackContents[i+2]};
         var Party = new RucksackGroups(group);
         var item = Party.findBadge();
-        Array.ForEach(group, Console.WriteLine);
-        System.Console.WriteLine(item);
         sumOfBadges += itemPriority(item);
     }
     return sumOfBadges;
